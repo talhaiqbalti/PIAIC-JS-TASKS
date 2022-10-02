@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+</head>
+<body>
+ 
+
+
+    <script>
+       
+        var names = ["Daniyal", "Taimoor", "Basit"]
+        var new_commer = "Hafsa"
+        print()
+
+        console.log(names[1] + " is not comming")
+        names.splice(1,1, new_commer)
+        console.log(" -> NEW SET")
+        print()
+        
+        alert("See Reselts in Console")
+
+        function print(){
+            names.forEach(function(val){
+            console.log(`${val} are invited to a dinner by me.`)
+        })
+        }
+
+
+    </script>
+</body>
+</html>
